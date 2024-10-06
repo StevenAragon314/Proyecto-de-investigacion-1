@@ -1,0 +1,54 @@
+# Ignora las carpetas de datos y logs
+data/
+logs/
+db_data/
+
+# Ignorar archivos y carpetas temporales de Docker
+docker-compose.override.yml
+*.tmp
+*.log
+
+# Ignorar archivos de Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+
+# Entorno virtual de 
+# Esto es necesario porque no es el objetivo 
+# del trabajo
+venv/
+env/
+ENV/
+
+# Archivos de configuración locales
+.env
+.env.*
+
+# Archivos generados por el sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archivos de Visual Studio Code
+.vscode/
+.history/
+
+# Ignorar archivos de Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Ignorar archivos binarios o compilados (opcional, si es necesario)
+*.o
+*.a
+*.out
+*.class
+*.jar
+*.exe
+*.dll
+
+# Por si acaso
+*.sqlite3
+*.csv
+*.json
