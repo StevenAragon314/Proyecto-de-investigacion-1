@@ -11,3 +11,4 @@ LINKLIST -> Una lista ordenada ya sea por valores o fechas, acepta duplicados.
 LINKSET -> Una lista desordenada, no acepta duplicados.
 LINKMAP -> Un mapa ordenado con String como clave. No se aceptan claves duplicadas.
 
+### prueba de cambios
