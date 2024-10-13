@@ -172,3 +172,57 @@ FOR usuario IN users
     RETURN usuario
 
 ```
+### Usuarios Especificos
+
+```sql
+
+FOR usuario IN users
+  FILTER usuario.nombre == "Ana López"
+  RETURN usuario
+
+```
+
+### Buscar Todas las Publicaciones de un Usuario
+
+```sql
+
+FOR post IN posts
+  FILTER post.autor == "user1"
+  RETURN post
+
+```
+
+### Encontrando todas las amistades un usuario
+
+```sql
+
+FOR friend IN 1..1 OUTBOUND "users/user1" friendships
+  RETURN friend
+
+```
+
+### Encontrando Amigos de Amigos
+
+```sql
+
+FOR friend IN 2 OUTBOUND "users/user1" friendships
+  FILTER friend._key != "user1" AND !(
+    FOR directFriend IN 1 OUTBOUND "users/user1" friendships
+      FILTER directFriend._key == friend._key
+      RETURN 1
+  )
+  RETURN friend
+
+```
+
+### Contar el Número de Amigos por Usuario
+
+```sql
+FOR usuario IN users
+  LET numeroAmigos = LENGTH(
+    FOR friend IN 1 OUTBOUND usuario._id friendships
+      RETURN 1
+  )
+  RETURN { nombre: usuario.nombre, numeroAmigos }
+
+```
