@@ -1,4 +1,4 @@
-Codigo: import requests
+import requests
 import time
 import psutil
 from requests.auth import HTTPBasicAuth
