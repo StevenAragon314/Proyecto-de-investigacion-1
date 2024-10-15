@@ -1,27 +1,25 @@
 # Proyecto de Sistemas -Tarea 02-
 
-El siguiente proyecto tiene como finalidad de poder estudiar y descubrir,
-esto realizandolo de forma autodidacta, cómo implementar diferentes
-tecnologías de almacenamiento de datos. Para este caso en particular, 
-primeramente se habla de ArangoDB, y cómo este nos ayuda a realizar
-confecciones bases de datos de mutiple opciones. Sin embargo, para este
-punto nos centraremos en la base de datos orientada a **grafos**.
+Nuestro proyecto tiene como finalidad estudiar y descubrir, de forma autodidacta, cómo implementar 
+diferentes tecnologías de almacenamiento de datos. En este archivo nos vamos a enfocar primeramente
+en la base de datos multimodelo ArangoDB, y cómo este nos brinda multiples opciones para realizar 
+confecciones de bases de datos.En nuestro caso nos centraremos en la base de datos orientada a **grafos**.
 
 ## Primeros pasos en ArangoDB
 
-> Como práctica se estará utilizando una base de datos realizada con la 
-> inteligencia artificial de ChatGPT.
+> Como práctica se estará utilizando una base de datos generada por medio de la 
+> inteligencia artificial ChatGPT.
 
-### Creando collecciones:
+### Creando colecciones:
 
-> Primeramente estaremos trabajando con la creación de collecciones, las
-> cuales pueden ser creadas con código o manula, para este caso serán 
+> El primer paso es trabajando con la creación de colecciones, las
+> cuales pueden ser creadas con código o manualmuente. En nuestro caso serán 
 > llevadas a cabo con código.
 
-> .[!IMPORTANT]
+> .[!AVISO IMPORTANTE!]
 
-Las consultas deben de ser una por una, no se pueden realizar con 
-exepciones  de ';', dado que este no comprende esa parte.
+Las consultas deben de ser una por una, no se pueden realizar con seguidas 
+por medio del ';'. El codigo no lo registra como una consulta aparte.
 
 Para llevar acabo las consultas se deben de realizar de tipo:
 
@@ -82,9 +80,9 @@ FOR user_ IN user
 
 ```
 
-Los cual va a ir generando la integración de cada uno en un ciclo. Terminada
-con esta parte, se continua con la agregración posts, pero hay que eliminar
-el **query** pasado,
+> Los cuales van a ir generando la integración de cada uno en un ciclo. 
+> Finalizada la primer insercion, se continua con la agregración de los "posts",
+>  pero hay que borrar el codigo del **query** anterior,
 
 ```sql
 LET post = [
@@ -164,7 +162,7 @@ FOR friendship_ IN friendship
 ### Creando consultas
 
 Para poder observar cómo funciona las consultas de extraer información
-dentro de las colleciones,
+dentro de las colecciones,
 
 ```sql
 // Lo que realiza esta acción es extraer todas la informació
