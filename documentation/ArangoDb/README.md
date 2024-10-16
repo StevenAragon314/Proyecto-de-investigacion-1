@@ -7,8 +7,47 @@ confecciones de bases de datos.En nuestro caso nos centraremos en la base de dat
 
 ## Primeros pasos en ArangoDB
 
+<p align="center" width="300">
+   <img align="center" width="200" src="https://github.com/StevenAragon314/Sistema-Tarea02/blob/main/documentation/ArangoDb/ArangoDB_Logo_RGB_Full_Color_White_Stacked-f.png" />
+   <h3 align="center"> Somos la mejor opción para tus proyectos 🤖💻</h3>
+</p>
+
 > Como práctica se estará utilizando una base de datos generada por medio de la 
 > inteligencia artificial ChatGPT.
+
+## Instalación de ArangoDB
+
+1. Primerame se estará realizando la descarga de Docker, esto con el fin de poder instalar Arango como una imagen.
+
+<details> <summary> En caso no tengas Docker Instalado mira este recuerso, da click aquí. </summary>
+  https://docs.docker.com/desktop/install/windows-install/
+</details>
+
+2. Realizar una descargar desde PowerShell o CMD la versión de ArangoDB
+
+```sql
+# Esta versión será la más nueva que haya
+docker pull arangodb
+```
+
+3. Ejecutando el contenedor
+
+```sql
+docker run -e ARANGO_ROOT_PASSWORD=<pongan algo seguro, no 1234> -d --name arangodb -p 8529:8529 arangodb
+```
+
+4. Ve a tu aplicación de Descktop
+  
+  1. Ve a la parte **Containers**
+    
+  3. Ve a la sección de **Actions**
+     
+  5. Da click en la parte '▶️'
+     
+  7. Luego de unos segundos se va a poner en azul **Port(s)** da click en el puerto
+     
+9. Todo esto te va a llevar a una página donde te vas a registrar con tu *root* y tu *password*
+   
 
 ### Creando colecciones:
 
