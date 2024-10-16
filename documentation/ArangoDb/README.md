@@ -44,7 +44,7 @@ db._createEdgeCollection('friendships');
 ### Alimentando las bases de datos
 
 > Se debe de declarar una variable con todas las inserciones nuevas que se 
-plaean realizar, por tanto la declaración de la variable va a tomar una
+planean realizar, por tanto la declaración de la variable va a tomar una
 conoctacción especial:
 
 ```sql
