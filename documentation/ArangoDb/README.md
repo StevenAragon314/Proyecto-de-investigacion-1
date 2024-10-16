@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/40b1dabd-8037-4a9e-afd6-1fee794c1ee7)# Proyecto de Sistemas -Tarea 02-
+# Proyecto de Sistemas -Tarea 02-
 
 Nuestro proyecto tiene como finalidad estudiar y descubrir, de forma autodidacta, cómo implementar 
 diferentes tecnologías de almacenamiento de datos. En este archivo nos vamos a enfocar primeramente
