@@ -1,4 +1,16 @@
 # Desarrollo para Bases de Datos NoSQL con Redes Sociales de Investigación Científica
+
+<div style="display: flex; justify-content: center; align-items: center; gap: 30px;">
+    <div style="text-align: center;">
+        <img width="200" src="https://github.com/StevenAragon314/Sistema-Tarea02/blob/main/documentation/ArangoDb/ArangoDB_Logo_RGB_Full_Color_White_Stacked-f.png" />
+    </div>
+    <div style="text-align: center;">
+        <img width="200" src="https://raw.githubusercontent.com/docker-library/docs/aa4e1c37afc16c4631e2272c1b5e2fe8e25e829c/orientdb/logo.png" />
+        <h3>¿Cuál de nosotros se ajusta mejor a tus proyectos? 🤖💻</h3>
+    </div>
+</div>
+
+
 ## Introduccion al repositorio
 Este repositorio es un trabajo comparativo de dos tecnologias gestoras de bases de datos NoSQL, en nuestro caso el tipo
 de base es de grafos. 
