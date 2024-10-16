@@ -131,7 +131,7 @@ LET post = [
 ]
 
 FOR post_ IN post
-    INSERT post_ INTO post
+    INSERT post_ INTO posts
 
 ```
 Por último, se va ir agregando las relaciones que se tienen, en este caso 
