@@ -15,3 +15,6 @@ publicaciones y colaboraciones anteriores. También la implementación de parám
 funcionalidades que permitan a los estudiantes buscar profesionales afines a sus intereses de investigación. Y
 fomentar la colaboración interdisciplinaria, mediante la implementación de herramientas que faciliten la comunicación
 y colaboración entre estudiantes y profesionales, como solicitudes de colaboración y mensajes directos.
+
+## Resultados
+Segun los resultados se concluye que ArangoDB es mejor para gestionar bases de datos de grafos.
