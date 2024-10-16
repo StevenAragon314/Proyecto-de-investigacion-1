@@ -1,4 +1,4 @@
-# Proyecto de Sistemas -Tarea 02-
+![image](https://github.com/user-attachments/assets/40b1dabd-8037-4a9e-afd6-1fee794c1ee7)# Proyecto de Sistemas -Tarea 02-
 
 Nuestro proyecto tiene como finalidad estudiar y descubrir, de forma autodidacta, cómo implementar 
 diferentes tecnologías de almacenamiento de datos. En este archivo nos vamos a enfocar primeramente
@@ -21,14 +21,26 @@ confecciones de bases de datos.En nuestro caso nos centraremos en la base de dat
 Las consultas deben de ser una por una, no se pueden realizar con seguidas 
 por medio del ';'. El codigo no lo registra como una consulta aparte.
 
-Para llevar acabo las consultas se deben de realizar de tipo:
-
+Para llevar acabo las creacion de las colecciones con codigo se debe de hacer por medio del command prompt o shell.
+```console
+  docker exec -it <NOMBRE CONTENEDOR> arangosh
+```
+Luego el lenguaje de la consola se transofmra a javascript, por lo tanto los comandos restantes se codifican en este lenguaje.
+```javascript
+db._useDatabase('<NOMBRE BASE DE DATOS>');
+```
 + CREATE COLLECTION users
-
+```javascript
+db._create('users');
+```
 + CREATE COLLECTION posts
-
+```javascript
+db._create('posts');
+```
 + CREATE EDGE COLLECTION friendships
-
+```javascript
+db._createEdgeCollection('friendships');
+```
 ### Alimentando las bases de datos
 
 > Se debe de declarar una variable con todas las inserciones nuevas que se 
