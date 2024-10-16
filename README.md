@@ -29,4 +29,4 @@ fomentar la colaboración interdisciplinaria, mediante la implementación de her
 y colaboración entre estudiantes y profesionales, como solicitudes de colaboración y mensajes directos.
 
 ## Resultados
-Segun los resultados se concluye que ArangoDB es mejor para gestionar bases de datos de grafos.
+Segun los resultados se concluye que para principiantes OrientDB es mejor para gestionar bases de datos de grafos.
