@@ -33,7 +33,7 @@ docker pull arangodb
 3. Ejecutando el contenedor
 
 ```sql
-docker run -e ARANGO_ROOT_PASSWORD=<pongan algo seguro, no 1234> -d --name arangodb -p 8529:8529 arangodb
+docker run -e ARANGO_ROOT_PASSWORD=<pongan algo fácil, no 1234> -d --name arangodb -p 8529:8529 arangodb
 ```
 
 4. Ve a tu aplicación de Descktop
