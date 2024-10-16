@@ -1,0 +1,21 @@
+#consultas finales OrientDB
+
+#todas las conexiones
+select * from estudiantes
+select * from profesionales
+select * from publicaciones
+select * from colabora_estudiante
+select * from colabora_profesional
+select * from autor_de
+select * from consulta
+
+#Consulta simple de DataFrame, se corre en Browse 
+SELECT  Nombre FROM estudiantes
+
+#Consulta Filtrado por Instituto, se corre tanto en Browse como Graph
+SELECT * FROM autor_de 
+WHERE out IN (SELECT * FROM profesionales WHERE Institucion = 'Instituto Tecnológico de Costa Rica');
+
+#Consulta de Estudiantes por cada Profesor, se corre tanto en Browse como Graph
+SELECT * FROM colabora_estudiante;
+
